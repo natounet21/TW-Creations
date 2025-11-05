@@ -8,7 +8,7 @@
         <meta name="author" content="natty">
         <link rel="canonical" href="https://natounet21.github.io/TW-Creations/tw-smp/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>TurboWarp SMP - TW-Creations</title>
+        <title>TWSMP - TW-Creations</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -36,9 +36,28 @@
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href="..">TW-Creations</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Minecraft</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">TWSMP</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
@@ -46,6 +65,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                             <li class="nav-item dropdown">
                               <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
                                 <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
