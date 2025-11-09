@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://natounet21.github.io/TW-Creations/</loc>
-         <lastmod>2025-11-05</lastmod>
+         <lastmod>2025-11-09</lastmod>
+    </url>
+    <url>
+         <loc>https://natounet21.github.io/TW-Creations/articles/turboconnect-docs/</loc>
+         <lastmod>2025-11-09</lastmod>
     </url>
     <url>
          <loc>https://natounet21.github.io/TW-Creations/articles/tw-smp/</loc>
-         <lastmod>2025-11-05</lastmod>
+         <lastmod>2025-11-09</lastmod>
     </url>
 </urlset>
