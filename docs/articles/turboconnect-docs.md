@@ -52,6 +52,15 @@ The other message is :
 ```
 The name field is the username you want then you are also Authed
 NOTE : This cracked authentification if you use it your username will look like `[✖] name` but if you were Authing with ScratchAuth it would look like : `[✔] name`
+## Rooms
+After authing or before you need to set your room before sending anything
+this what to send 
+```json
+{
+    "type":"set_room",
+    "room":"genral"
+}
+```
 ## Communication
 YAY you are now authed time to chat!
 First to chat you will need to send this : 
